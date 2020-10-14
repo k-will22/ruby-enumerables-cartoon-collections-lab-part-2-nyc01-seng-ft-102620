@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   calls = []
  planeteer_calls.map do |element|
-   "#{element.capitalize()}!" >> calls 
+   element.capitalize()} + "!" >> calls 
    calls 
 end
 
