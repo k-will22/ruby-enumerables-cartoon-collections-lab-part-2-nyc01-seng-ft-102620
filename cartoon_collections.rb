@@ -31,8 +31,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |element| 
    if planeteer_calls[element] === "Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!"
  end 
-    return planeteer_calls[element]
+    puts planeteer_calls[element]
   else 
 
-    return nil 
+    puts nil 
 end 
