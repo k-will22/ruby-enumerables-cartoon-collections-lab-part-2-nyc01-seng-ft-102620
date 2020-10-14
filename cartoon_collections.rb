@@ -34,6 +34,6 @@ def find_valid_calls(planeteer_calls)
     element === "Fire!" || 
     element === "Water!" || 
     element ==="Heart!"
-
+end 
   end 
 
